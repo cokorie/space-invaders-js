@@ -30,6 +30,6 @@ function moveShooter(e) {
     switch(e.key) {
         case 'ArrowLeft':
             if (currentShooterIndex % width !== 0) currentShooterIndex -=1;
-            
+            break;
     }
 }
