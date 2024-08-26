@@ -31,5 +31,7 @@ function moveShooter(e) {
         case 'ArrowLeft':
             if (currentShooterIndex % width !== 0) currentShooterIndex -=1;
             break;
+        case 'ArrowRight':
+            
     }
 }
