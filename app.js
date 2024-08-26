@@ -34,5 +34,6 @@ function moveShooter(e) {
         case 'ArrowRight':
             if (currentShooterIndex % width < width - 1) currentShooterIndex += 1;
             break;
-    }
+    };
+    squares[currentShooterIndex].classList.add('shooter');
 }
