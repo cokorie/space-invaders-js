@@ -29,6 +29,7 @@ function moveShooter(e) {
     squares[currentShooterIndex].classList.remove('shooter');
     switch(e.key) {
         case 'ArrowLeft':
-            if ()
+            if (currentShooterIndex % width !== 0) currentShooterIndex -=1;
+            
     }
 }
