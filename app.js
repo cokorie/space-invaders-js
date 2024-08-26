@@ -38,4 +38,4 @@ function moveShooter(e) {
     squares[currentShooterIndex].classList.add('shooter');
 };
 
-document.addEventListener();
+document.addEventListener('keydown', moveShooter);
