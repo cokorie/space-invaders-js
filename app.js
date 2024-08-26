@@ -22,4 +22,4 @@ function draw() {
 
 draw();
 
-squares[currentShooterIndex].classList.add();
+squares[currentShooterIndex].classList.add('shooter');
