@@ -20,3 +20,5 @@ function draw() {
 };
 
 draw();
+
+squares[].classList.add();
