@@ -14,7 +14,7 @@ const alienInvaders = [
 ];
 
 function draw() {
-    for () {
+    for (let i = 0;) {
 
     };
 };
