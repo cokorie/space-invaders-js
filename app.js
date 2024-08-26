@@ -18,3 +18,5 @@ function draw() {
         squares[alienInvaders[i]].classList.add('.invader');
     };
 };
+
+draw();
