@@ -1,1 +1,1 @@
-const grid = document.querySelector();
+const grid = document.querySelector('.grid');
