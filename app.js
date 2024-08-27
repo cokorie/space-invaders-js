@@ -55,7 +55,7 @@ function moveInvaders() {
 
     if (rightEdge && goingRight) {
         for (let i = 0; i < alienInvaders.length; i++) {
-            
+            alienInvaders[i] += width + 1;
         };
     };
 
