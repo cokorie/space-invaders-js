@@ -42,5 +42,5 @@ document.addEventListener('keydown', moveShooter);
 
 function moveInvaders() {
     const leftEdge = alienInvaders[0] % width === 0;
-    const rightEdge = ;
+    const rightEdge = alienInvaders[alienInvaders.length - 1];
 };
