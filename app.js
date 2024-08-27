@@ -24,8 +24,8 @@ function draw() {
 draw();
 
 function remove() {
-    for () {
-
+    for (let i = 0; i < alienInvaders.length; i++) {
+        
     };
 };
 
