@@ -23,6 +23,10 @@ function draw() {
 
 draw();
 
+function remove() {
+    
+};
+
 squares[currentShooterIndex].classList.add('shooter');
 
 function moveShooter(e) {
