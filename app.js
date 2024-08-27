@@ -81,4 +81,4 @@ function moveInvaders() {
     };
 };
 
-setInterval(moveInvaders, 500);
+invadersId = setInterval(moveInvaders, 500);
