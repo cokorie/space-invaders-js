@@ -2,6 +2,7 @@ const grid = document.querySelector('.grid');
 let currentShooterIndex = 202;
 let width = 15;
 let direction = 1;
+let goingRight = true;
 
 for (let i = 0; i < 225; i++) {
     const square = document.createElement('div');
@@ -53,7 +54,7 @@ function moveInvaders() {
     remove();
 
     if () {
-        
+
     };
 
     for (let i = 0; i < alienInvaders.length; i++) {
