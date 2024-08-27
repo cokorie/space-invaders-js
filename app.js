@@ -54,8 +54,8 @@ function moveInvaders() {
     remove();
 
     if (rightEdge && goingRight) {
-        for () {
-
+        for (let i = 0; i < alienInvaders.length; i++) {
+            
         };
     };
 
