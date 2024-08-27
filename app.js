@@ -61,8 +61,8 @@ function moveInvaders() {
         };
     };
 
-    if () {
-
+    if (leftEdge && !goingRight) {
+        
     };
 
     for (let i = 0; i < alienInvaders.length; i++) {
