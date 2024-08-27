@@ -54,4 +54,6 @@ function moveInvaders() {
     for (let i = 0; i < alienInvaders.length; i++) {
         alienInvaders[i] += 1;
     };
+
+    draw();
 };
