@@ -52,6 +52,10 @@ function moveInvaders() {
     const rightEdge = alienInvaders[alienInvaders.length - 1] % width === width - 1;
     remove();
 
+    if () {
+        
+    };
+
     for (let i = 0; i < alienInvaders.length; i++) {
         alienInvaders[i] += direction;
     };
