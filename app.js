@@ -74,6 +74,10 @@ function moveInvaders() {
     };
 
     draw();
+
+    if () {
+
+    };
 };
 
 setInterval(moveInvaders, 500);
