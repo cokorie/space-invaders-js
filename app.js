@@ -24,7 +24,9 @@ function draw() {
 draw();
 
 function remove() {
-    
+    for () {
+
+    };
 };
 
 squares[currentShooterIndex].classList.add('shooter');
