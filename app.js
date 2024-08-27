@@ -75,7 +75,7 @@ function moveInvaders() {
 
     draw();
 
-    if (squares[currentShooterIndex].classList.contains('invader')) {
+    if (squares[currentShooterIndex].classList.contains('invader', 'shooter')) {
 
     };
 };
