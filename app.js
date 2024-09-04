@@ -101,3 +101,5 @@ function shoot(e) {
         squares.[currentLaserIndex].classList.add('laser');
     };
 };
+
+document.addEventListener('keydown', shoot);
