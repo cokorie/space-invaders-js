@@ -94,4 +94,5 @@ invadersId = setInterval(moveInvaders, 500);
 
 function shoot(e) {
     let laserId;
+    let currentLaserIndex = currentShooterIndex;
 };
