@@ -102,6 +102,7 @@ function shoot(e) {
         
         if(squares.[currentLaserIndex].classList.contains('invader')) {
             squares.[currentLaserIndex].classList.remove('laser');
+            squares.[currentLaserIndex].classList.remove('invader');
         };
     };
     switch (e.key) {
