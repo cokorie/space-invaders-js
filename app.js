@@ -101,7 +101,7 @@ function shoot(e) {
         squares.[currentLaserIndex].classList.add('laser');
     };
     switch (e.key) {
-
+        case 'ArrowUp':
     }
 };
 
