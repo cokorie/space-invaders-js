@@ -100,8 +100,8 @@ function shoot(e) {
         currentLaserIndex -= width;
         squares.[currentLaserIndex].classList.add('laser');
 
-        if() {
-
+        if(squares.[currentLaserIndex].classList.contains('invader')) {
+            
         };
     };
     switch (e.key) {
