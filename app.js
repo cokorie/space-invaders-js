@@ -100,6 +100,9 @@ function shoot(e) {
         currentLaserIndex -= width;
         squares.[currentLaserIndex].classList.add('laser');
     };
+    switch () {
+        
+    }
 };
 
 document.addEventListener('keydown', shoot);
