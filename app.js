@@ -96,6 +96,6 @@ function shoot(e) {
     let laserId;
     let currentLaserIndex = currentShooterIndex;
     function moveLaser() {
-        squares.[currentLaserIndex].classList.remove();
+        squares.[currentLaserIndex].classList.remove('laser');
     };
 };
