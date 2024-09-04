@@ -105,7 +105,7 @@ function shoot(e) {
             squares.[currentLaserIndex].classList.remove('invader');
             squares.[currentLaserIndex].classList.add('boom');
 
-            setTimeout(()=> );
+            setTimeout(()=> squares.[currentLaserIndex].classList.remove('boom'));
         };
     };
     switch (e.key) {
