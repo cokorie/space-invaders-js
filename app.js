@@ -100,8 +100,8 @@ function shoot(e) {
         currentLaserIndex -= width;
         squares.[currentLaserIndex].classList.add('laser');
     };
-    switch () {
-        
+    switch (e.key) {
+
     }
 };
 
