@@ -82,7 +82,7 @@ function moveInvaders() {
         clearInterval(invadersId);
     };
 
-    for () {
+    for (let i = 0;) {
 
     };
 };
