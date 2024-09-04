@@ -106,7 +106,7 @@ function shoot(e) {
             squares.[currentLaserIndex].classList.add('boom');
 
             setTimeout(()=> squares.[currentLaserIndex].classList.remove('boom'), 300);
-            clearInterval();
+            clearInterval(laserId);
         };
     };
     switch (e.key) {
