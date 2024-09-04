@@ -81,6 +81,10 @@ function moveInvaders() {
         resultsDisplay.innerHTML = 'GAME OVER!';
         clearInterval(invadersId);
     };
+
+    for () {
+
+    };
 };
 
 invadersId = setInterval(moveInvaders, 500);
