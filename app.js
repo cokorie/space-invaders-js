@@ -98,5 +98,6 @@ function shoot(e) {
     function moveLaser() {
         squares.[currentLaserIndex].classList.remove('laser');
         currentLaserIndex -= width;
+        squares.[currentLaserIndex].classList.add('laser');
     };
 };
