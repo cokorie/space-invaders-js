@@ -78,7 +78,7 @@ function moveInvaders() {
     draw();
 
     if (squares[currentShooterIndex].classList.contains('invader', 'shooter')) {
-        resultsDisplay.innerHTML('GAME OVER!');
+        resultsDisplay.innerHTML = 'GAME OVER!';
         clearInterval(invadersId);
     };
 };
