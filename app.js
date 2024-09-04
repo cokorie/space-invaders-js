@@ -97,5 +97,6 @@ function shoot(e) {
     let currentLaserIndex = currentShooterIndex;
     function moveLaser() {
         squares.[currentLaserIndex].classList.remove('laser');
+        currentLaserIndex -= width;
     };
 };
