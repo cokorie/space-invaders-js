@@ -91,3 +91,7 @@ function moveInvaders() {
 };
 
 invadersId = setInterval(moveInvaders, 500);
+
+function shoot(e) {
+
+};
