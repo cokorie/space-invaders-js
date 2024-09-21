@@ -92,8 +92,8 @@ function moveInvaders() {
         }
     };
 
-    if () {
-
+    if (alienRemoved.length === alienInvaders.length) {
+        
     };
 };
 
