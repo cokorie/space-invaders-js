@@ -110,7 +110,7 @@ function shoot(e) {
             clearInterval(laserId);
 
             const alienRemoved = alienInvaders.indexOf(currentLaserIndex);
-
+            alienRemoved.push(alienRemoved);
         };
     };
     switch (e.key) {
