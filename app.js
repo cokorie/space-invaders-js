@@ -94,6 +94,7 @@ function moveInvaders() {
 
     if (alienRemoved.length === alienInvaders.length) {
         resultsDisplay.innerHTML = 'YOU WIN!';
+        clearInterval(invadersId);
     };
 };
 
