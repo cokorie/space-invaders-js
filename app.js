@@ -23,9 +23,8 @@ const alienInvaders = [
 function draw() {
     for (let i = 0; i > alienInvaders.length; i++) {
        if(!alienRemoved.includes(i)) {
-
+           squares[alienInvaders[i]].classList.add('invader');
        }; 
-        squares[alienInvaders[i]].classList.add('invader');
     };
 };
 
