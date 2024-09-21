@@ -6,6 +6,7 @@ let direction = 1;
 let goingRight = true;
 let invadersId;
 let alienRemoved = [];
+let results = 0;
 
 for (let i = 0; i < 225; i++) {
     const square = document.createElement('div');
