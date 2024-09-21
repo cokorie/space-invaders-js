@@ -91,6 +91,10 @@ function moveInvaders() {
             clearInterval(invadersId);
         }
     };
+
+    if () {
+
+    };
 };
 
 invadersId = setInterval(moveInvaders, 500);
