@@ -108,7 +108,7 @@ function shoot(e) {
             setTimeout(()=> squares.[currentLaserIndex].classList.remove('boom'), 300);
             clearInterval(laserId);
 
-            const alienRemoved = ;
+            const alienRemoved = alienInvaders.indexOf();
         };
     };
     switch (e.key) {
