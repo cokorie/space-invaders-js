@@ -111,6 +111,7 @@ function shoot(e) {
 
             const alienRemoved = alienInvaders.indexOf(currentLaserIndex);
             alienRemoved.push(alienRemoved);
+            console.log(alienRemoved);
         };
     };
     switch (e.key) {
