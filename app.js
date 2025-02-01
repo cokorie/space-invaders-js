@@ -1,7 +1,7 @@
 const grid = document.querySelector('.grid');
 const resultsDisplay = document.querySelector('.results');
 let currentShooterIndex = 404;
-let width = 15;
+let width = 30;
 let direction = 1;
 let goingRight = true;
 let invadersId;
