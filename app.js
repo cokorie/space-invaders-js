@@ -1,6 +1,6 @@
 const grid = document.querySelector('.grid');
 const resultsDisplay = document.querySelector('.results');
-let currentShooterIndex = 202;
+let currentShooterIndex = 404;
 let width = 15;
 let direction = 1;
 let goingRight = true;
