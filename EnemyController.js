@@ -21,8 +21,8 @@ export default class EnemyController {
 
     }
 
-    drawEnemies() {
-        
+    drawEnemies(ctx) {
+
     }
 
     createEnemies() {
