@@ -30,7 +30,9 @@ export default class EnemyController {
     }
 
     updateVelocityAndDirection() {
-
+        for () {
+            
+        }
     }
 
     drawEnemies(ctx) {
