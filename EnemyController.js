@@ -25,11 +25,12 @@ export default class EnemyController {
     }
 
     draw(ctx) { 
+        this.updateVelocityAndDirection();
         this.drawEnemies(ctx);
     }
 
     updateVelocityAndDirection() {
-        
+
     }
 
     drawEnemies(ctx) {
