@@ -37,6 +37,7 @@ export default class EnemyController {
                 const rightMostEnemy = enenyRow[enenyRow.length - 1];
                 if (rightMostEnemy.x + rightMostEnemy.width >= this.canvas.width) {
                     this.currentDirection = MovingDirection.downLeft;
+                    break;
                 }
             }
         }
