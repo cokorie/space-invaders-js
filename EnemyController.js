@@ -27,12 +27,13 @@ export default class EnemyController {
     }
 
     draw(ctx) { 
+        this.decrementMoveDownTimer();
         this.updateVelocityAndDirection();
         this.drawEnemies(ctx);
     }
 
     decrementMoveDownTimer() {
-        
+
     }
 
     updateVelocityAndDirection() {
