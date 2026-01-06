@@ -45,6 +45,9 @@ export default class EnemyController {
             else if(this.currentDirection === MovingDirection.downLeft) {
                 this.xVelocity = 0;
                 this.yVelocity = this.defaultYVelocity;
+                if () {
+
+                }
             }
         }
     }
