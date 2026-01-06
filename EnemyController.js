@@ -30,7 +30,7 @@ export default class EnemyController {
     }
 
     updateVelocityAndDirection() {
-        for () {
+        for (const enenyRow of this.enemyRows) {
             
         }
     }
