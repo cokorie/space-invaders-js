@@ -15,6 +15,7 @@ export default class EnemyController {
 
     currentDirection = MovingDirection.right;
     xVelocity = 0;
+    yVelocity = 0;
 
     constructor(canvas) {
         this.canvas = canvas;
