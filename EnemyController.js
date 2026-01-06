@@ -34,7 +34,9 @@ export default class EnemyController {
     }
 
     resetMoveDownTimer() {
-
+        if () {
+            
+        }
     }
 
     decrementMoveDownTimer() {
