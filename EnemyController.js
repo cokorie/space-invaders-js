@@ -17,6 +17,7 @@ export default class EnemyController {
     xVelocity = 0;
     yVelocity = 0;
     defaultXVelocity = 1;
+    defaultYVelocity = 1;
 
     constructor(canvas) {
         this.canvas = canvas;
