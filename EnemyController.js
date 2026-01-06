@@ -28,6 +28,10 @@ export default class EnemyController {
         this.drawEnemies(ctx);
     }
 
+    updateVelocityAndDirection() {
+        
+    }
+
     drawEnemies(ctx) {
         this.enemyRows.flat().forEach((enemy) => {
             enemy.draw(ctx);
