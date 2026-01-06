@@ -8,6 +8,8 @@ export default class EnemyController {
         [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
     ];
 
+    enemyRows = [];
+
     constructor(canvas) {
         this.canvas = canvas;
         this.createEnemies();
