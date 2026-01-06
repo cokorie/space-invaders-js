@@ -8,5 +8,5 @@ const background = new Image();
 background.src = "images/space.png";
 
 function game () {
-    
+    ctx.drawImage();
 }
