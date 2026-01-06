@@ -49,8 +49,8 @@ export default class EnemyController {
         }
     }
 
-    moveDown() {
-        
+    moveDown(newDirection) {
+
     }
 
     drawEnemies(ctx) {
