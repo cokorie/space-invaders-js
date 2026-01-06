@@ -43,8 +43,6 @@ export default class EnemyController {
                 }
             }
             else if(this.currentDirection === MovingDirection.downLeft) {
-                this.xVelocity = 0;
-                this.yVelocity = this.defaultYVelocity;
                 if (this.moveDown(MovingDirection.left)) {
                     break;
                 }
@@ -53,7 +51,8 @@ export default class EnemyController {
     }
 
     moveDown(newDirection) {
-
+        this.xVelocity = 0;
+        this.yVelocity = this.defaultYVelocity;
     }
 
     drawEnemies(ctx) {
