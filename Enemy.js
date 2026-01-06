@@ -8,8 +8,8 @@ export default class Enemy {
         this.image = new Image();
         this.image.src = `images/enemy${imageNumber}.png`;
 
-        draw() {
-            
+        draw(ctx) {
+
         }
     }
 }
