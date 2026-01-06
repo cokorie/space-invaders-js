@@ -21,7 +21,7 @@ export default class EnemyController {
         this.enemyMap.forEach((row, rowIndex) => {
             this.enemyRows[rowIndex] = [];
             row.forEach((enemyNumber, enemyIndex) => {
-                if () {
+                if (enemyNumber > 0) {
                     
                 }
             })
