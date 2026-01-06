@@ -16,5 +16,6 @@ export default class Enemy {
 
     move(xVelocity, yVelocity) {
         this.x = xVelocity;
+        this.y = yVelocity;
     }
 }
