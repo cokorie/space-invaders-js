@@ -35,7 +35,7 @@ export default class EnemyController {
 
     resetMoveDownTimer() {
         if (this.moveDownTimer <= 0) {
-            
+            this.moveDownTimer = this.moveDownTimerDefault;
         }
     }
 
