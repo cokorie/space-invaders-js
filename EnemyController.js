@@ -32,6 +32,10 @@ export default class EnemyController {
         this.drawEnemies(ctx);
     }
 
+    resetMoveDownTimer() {
+        
+    }
+
     decrementMoveDownTimer() {
         if (this.currentDirection === MovingDirection.downLeft || this.currentDirection === MovingDirection.downRight) {
             this.moveDownTimer--;
