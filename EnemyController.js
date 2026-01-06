@@ -65,8 +65,8 @@ export default class EnemyController {
                 this.xVelocity = -this.defaultXVelocity;
                 this.yVelocity = 0;
                 const leftMostEnemy = enenyRow[0];
-                if () {
-                    
+                if (leftMostEnemy.x <= 0) {
+                    this.currentDirection = MovingDirection.downRight;
                 }
             }
         }
