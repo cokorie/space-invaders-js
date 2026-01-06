@@ -49,6 +49,10 @@ export default class EnemyController {
         }
     }
 
+    moveDown() {
+        
+    }
+
     drawEnemies(ctx) {
         this.enemyRows.flat().forEach((enemy) => {
             enemy.move(this.xVelocity, this.yVelocity);
