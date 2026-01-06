@@ -14,11 +14,15 @@ export default class EnemyController {
         this.canvas = canvas;
         this.createEnemies();
     }
+
     draw(ctx) { }
 
     createEnemies() {
         this.enemyMap.forEach((row, rowIndex) => {
             this.enemyRows[rowIndex] = [];
+            row.forEach(() => {
+                
+            })
         });
     }
 }
