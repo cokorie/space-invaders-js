@@ -31,6 +31,10 @@ export default class EnemyController {
         this.drawEnemies(ctx);
     }
 
+    decrementMoveDownTimer() {
+        
+    }
+
     updateVelocityAndDirection() {
         for (const enenyRow of this.enemyRows) {
             if (this.currentDirection == MovingDirection.right) {
