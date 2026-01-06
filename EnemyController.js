@@ -57,6 +57,7 @@ export default class EnemyController {
             this.currentDirection = newDirection;
             return true;
         }
+        return false;
     }
 
     drawEnemies(ctx) {
