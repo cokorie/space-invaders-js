@@ -34,6 +34,7 @@ export default class EnemyController {
             if (this.currentDirection == MovingDirection.right) {
                 this.xVelocity = this.defaultXVelocity;
                 this.yVelocity = 0;
+                const rightMostEnemy = enenyRow[enenyRow.length - 1];
             }
         }
     }
