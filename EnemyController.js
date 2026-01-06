@@ -1,3 +1,5 @@
+import Enemy from "./Enemy.js";
+
 export default class EnemyController {
     enemyMap = [
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
