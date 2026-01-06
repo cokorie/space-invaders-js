@@ -40,6 +40,9 @@ export default class EnemyController {
                     break;
                 }
             }
+            else if() {
+                
+            }
         }
     }
 
