@@ -53,6 +53,9 @@ export default class EnemyController {
     moveDown(newDirection) {
         this.xVelocity = 0;
         this.yVelocity = this.defaultYVelocity;
+        if () {
+
+        }
     }
 
     drawEnemies(ctx) {
