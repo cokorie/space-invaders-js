@@ -33,7 +33,9 @@ export default class EnemyController {
     }
 
     decrementMoveDownTimer() {
-
+        if () {
+            
+        }
     }
 
     updateVelocityAndDirection() {
