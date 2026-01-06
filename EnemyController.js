@@ -55,6 +55,7 @@ export default class EnemyController {
         this.yVelocity = this.defaultYVelocity;
         if (this.moveDownTimer <= 0) {
             this.currentDirection = newDirection;
+            return true;
         }
     }
 
