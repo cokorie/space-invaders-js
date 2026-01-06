@@ -26,7 +26,7 @@ export default class EnemyController {
         this.createEnemies();
     }
 
-    draw(ctx) { 
+    draw(ctx) {
         this.decrementMoveDownTimer();
         this.updateVelocityAndDirection();
         this.drawEnemies(ctx);
@@ -56,7 +56,7 @@ export default class EnemyController {
                     break;
                 }
             }
-            else if(this.currentDirection === MovingDirection.downLeft) {
+            else if (this.currentDirection === MovingDirection.downLeft) {
                 if (this.moveDown(MovingDirection.left)) {
                     break;
                 }
@@ -69,14 +69,14 @@ export default class EnemyController {
                     this.currentDirection = MovingDirection.downRight;
                     break;
                 }
-                else if(this.currentDirection === MovingDirection.downRight) {
-                    if (this.moveDown(MovingDirection.right)) {
-                        break;
-                    }
+            }
+            else if (this.currentDirection === MovingDirection.downRight) {
+                if (this.moveDown(MovingDirection.right)) {
+                    break;
+                }
             }
         }
     }
-}
 
     moveDown(newDirection) {
         this.xVelocity = 0;
