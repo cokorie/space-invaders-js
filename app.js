@@ -6,3 +6,7 @@ canvas.height = 600;
 
 const background = new Image();
 background.src = "images/space.png";
+
+function game () {
+    
+}
