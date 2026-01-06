@@ -17,7 +17,13 @@ export default class EnemyController {
         this.createEnemies();
     }
 
-    draw(ctx) { }
+    draw(ctx) { 
+
+    }
+
+    drawEnemies() {
+        
+    }
 
     createEnemies() {
         this.enemyMap.forEach((row, rowIndex) => {
