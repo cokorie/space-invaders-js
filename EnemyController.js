@@ -22,7 +22,7 @@ export default class EnemyController {
             this.enemyRows[rowIndex] = [];
             row.forEach((enemyNumber, enemyIndex) => {
                 if (enemyNumber > 0) {
-                    
+                    this.enemyRows[rowIndex].push();
                 }
             })
         });
