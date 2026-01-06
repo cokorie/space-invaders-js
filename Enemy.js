@@ -9,7 +9,7 @@ export default class Enemy {
         this.image.src = `images/enemy${imageNumber}.png`;
 
         draw(ctx) {
-
+            ctx.drawImage();
         }
     }
 }
