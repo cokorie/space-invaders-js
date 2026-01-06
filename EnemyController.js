@@ -61,8 +61,8 @@ export default class EnemyController {
                     break;
                 }
             }
-            else if () {
-                
+            else if (this.currentDirection === MovingDirection.left) {
+
             }
         }
     }
