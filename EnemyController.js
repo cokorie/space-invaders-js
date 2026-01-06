@@ -1,5 +1,5 @@
 export default class EnemyController {
-    constructor() {
-        
+    constructor(canvas) {
+        this.canvas = canvas;
     }
 }
