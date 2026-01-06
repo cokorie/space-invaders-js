@@ -4,6 +4,6 @@ export default class Enemy {
         this.y = y;
 
         this.image = new Image();
-        this.image.src = `images/enemy${imageNumber}`;
+        this.image.src = `images/enemy${imageNumber}.png`;
     }
 }
