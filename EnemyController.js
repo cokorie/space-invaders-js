@@ -20,8 +20,8 @@ export default class EnemyController {
     createEnemies() {
         this.enemyMap.forEach((row, rowIndex) => {
             this.enemyRows[rowIndex] = [];
-            row.forEach(() => {
-                
+            row.forEach((enemyNumber, enemyIndex) => {
+
             })
         });
     }
