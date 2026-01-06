@@ -10,10 +10,11 @@ export default class EnemyController {
 
     constructor(canvas) {
         this.canvas = canvas;
+        this.createEnemies();
     }
     draw(ctx) { }
 
     createEnemies() {
-        
+
     }
 }
