@@ -1,5 +1,5 @@
 export default class Enemy {
-    constructor() {
-        
+    constructor(x,y,imageNumber) {
+
     }
 }
