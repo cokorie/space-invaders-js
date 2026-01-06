@@ -18,7 +18,7 @@ export default class EnemyController {
 
     createEnemies() {
         this.enemyMap.forEach((row, rowIndex) => {
-            
+            this.enemyRows[rowIndex] = [];
         });
     }
 }
