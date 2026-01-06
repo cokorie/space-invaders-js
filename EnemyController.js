@@ -32,7 +32,7 @@ export default class EnemyController {
     updateVelocityAndDirection() {
         for (const enenyRow of this.enemyRows) {
             if (this.currentDirection == MovingDirection.right) {
-                
+                this.xVelocity = this.defaultXVelocity;
             }
         }
     }
