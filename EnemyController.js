@@ -67,6 +67,7 @@ export default class EnemyController {
                 const leftMostEnemy = enenyRow[0];
                 if (leftMostEnemy.x <= 0) {
                     this.currentDirection = MovingDirection.downRight;
+                    break;
                 }
             }
         }
