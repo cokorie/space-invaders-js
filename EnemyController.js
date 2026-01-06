@@ -34,7 +34,7 @@ export default class EnemyController {
 
     decrementMoveDownTimer() {
         if (this.currentDirection === MovingDirection.downLeft || this.currentDirection === MovingDirection.downRight) {
-            
+            this.moveDownTimer--;
         }
     }
 
