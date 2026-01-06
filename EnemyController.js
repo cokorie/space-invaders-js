@@ -18,6 +18,7 @@ export default class EnemyController {
     yVelocity = 0;
     defaultXVelocity = 1;
     defaultYVelocity = 1;
+    moveDownTimerDefault = 30;
 
     constructor(canvas) {
         this.canvas = canvas;
