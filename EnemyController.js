@@ -35,8 +35,8 @@ export default class EnemyController {
                 this.xVelocity = this.defaultXVelocity;
                 this.yVelocity = 0;
                 const rightMostEnemy = enenyRow[enenyRow.length - 1];
-                if () {
-                    
+                if (rightMostEnemy.x + rightMostEnemy.width >= this.canvas.width) {
+
                 }
             }
         }
