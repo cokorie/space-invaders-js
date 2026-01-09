@@ -22,6 +22,10 @@ export default class Player {
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
     }
 
+    collideWithWalls() {
+        
+    }
+
     move() {
         if (this.rightPressed) {
             this.x += this.velocity;
