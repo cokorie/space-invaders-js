@@ -25,8 +25,8 @@ export default class Player {
     move() {
         if (this.rightPressed) {
             this.x += this.velocity;
-        } else if () {
-            
+        } else if (this.leftPressed) {
+            this.x += -this.velocity;
         }
     }
 
