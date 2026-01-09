@@ -22,8 +22,8 @@ export default class Player {
     }
 
     keydown = (event) => {
-        if () {
-
+        if (event.code == "ArrowRight") {
+            this.rightPressed = true;
         }
     }
 }
