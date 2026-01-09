@@ -26,6 +26,10 @@ export default class Player {
         if (this.x < 0) {
             this.x = 0;
         }
+
+        if (this.x > this.canvas.width - this.width) {
+            this.x = this.canvas.width - this.width;
+        }
     }
 
     move() {
