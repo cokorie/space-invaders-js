@@ -11,7 +11,7 @@ const background = new Image();
 background.src = "images/space.png";
 
 const enemyController = new EnemyController(canvas);
-
+const player = new Player(canvas, 3);
 
 function game () {
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
