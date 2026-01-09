@@ -2,5 +2,7 @@ export default class Player {
     constructor(canvas, velocity) {
         this.canvas = canvas;
         this.velocity = velocity;
+
+        this.x = this.canvas.width / 2;
     }
 }
