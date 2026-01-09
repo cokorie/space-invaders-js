@@ -25,5 +25,8 @@ export default class Player {
         if (event.code == "ArrowRight") {
             this.rightPressed = true;
         }
+        if (event.code == "ArrowLeft") {
+            this.leftPressed = true;
+        }
     }
 }
