@@ -29,4 +29,13 @@ export default class Player {
             this.leftPressed = true;
         }
     }
+
+    keyup = (event) => {
+        if (event.code == "ArrowRight") {
+            this.rightPressed = false;
+        }
+        if (event.code == "ArrowLeft") {
+            this.leftPressed = false;
+        }
+    }
 }
