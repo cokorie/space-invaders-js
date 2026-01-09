@@ -19,6 +19,7 @@ export default class Player {
 
     draw(ctx){
         this.move();
+        this.collideWithWalls();
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
     }
 
