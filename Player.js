@@ -4,5 +4,6 @@ export default class Player {
         this.velocity = velocity;
 
         this.x = this.canvas.width / 2;
+        this.y;
     }
 }
