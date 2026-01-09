@@ -22,6 +22,8 @@ export default class Player {
     }
 
     keydown = (event) => {
-        
+        if () {
+
+        }
     }
 }
