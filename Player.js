@@ -1,6 +1,7 @@
 export default class Player {
     rightPressed = false;
     leftPressed = false;
+    shootPressed = false;
 
     constructor(canvas, velocity) {
         this.canvas = canvas;
