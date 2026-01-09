@@ -3,7 +3,7 @@ export default class Player {
     leftPressed = false;
     shootPressed = false;
 
-    constructor(canvas, velocity) {
+    constructor(canvas, velocity, bulletController) {
         this.canvas = canvas;
         this.velocity = velocity;
 
