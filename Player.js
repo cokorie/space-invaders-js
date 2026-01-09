@@ -14,6 +14,7 @@ export default class Player {
         this.image.src = "images/player.png";
 
         document.addEventListener("keydown", this.keydown);
+        document.addEventListener("keyup", this.keyup);
     }
 
     draw(ctx){
