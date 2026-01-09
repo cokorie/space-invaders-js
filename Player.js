@@ -12,6 +12,8 @@ export default class Player {
         this.height = 48;
         this.image = new Image();
         this.image.src = "images/player.png";
+
+        document.addEventListener("keydown", this.keydown);
     }
 
     draw(ctx){
