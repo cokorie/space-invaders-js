@@ -28,6 +28,7 @@ export default class Player {
             this.x = 0;
         }
 
+        // right wall limit
         if (this.x > this.canvas.width - this.width) {
             this.x = this.canvas.width - this.width;
         }
