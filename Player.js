@@ -1,5 +1,5 @@
 export default class Player {
-    constructor() {
-        
+    constructor(canvas, velocity) {
+
     }
 }
