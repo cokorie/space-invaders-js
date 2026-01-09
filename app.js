@@ -13,7 +13,7 @@ background.src = "images/space.png";
 
 const playerBulletController = new BulletController(canvas, 10, "red", true);
 const enemyController = new EnemyController(canvas);
-const player = new Player(canvas, 3);
+const player = new Player(canvas, 3, playerBulletController);
 
 function game () {
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
