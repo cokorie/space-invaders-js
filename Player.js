@@ -8,5 +8,6 @@ export default class Player {
         this.width = 50;
         this.height = 48;
         this.image = new Image();
+        this.image.src = "images/player.png";
     }
 }
