@@ -10,4 +10,8 @@ export default class Player {
         this.image = new Image();
         this.image.src = "images/player.png";
     }
+
+    draw(){
+        
+    }
 }
