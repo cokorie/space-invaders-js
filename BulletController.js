@@ -1,6 +1,10 @@
 export default class BulletController () {
 
-    shoot() {
+    constructor() {
         
+    }
+
+    shoot() {
+
     }
 }
