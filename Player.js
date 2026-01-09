@@ -18,6 +18,7 @@ export default class Player {
     }
 
     draw(ctx){
+        this.move();
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
     }
 
