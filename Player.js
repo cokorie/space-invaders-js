@@ -19,7 +19,7 @@ export default class Player {
     }
 
     draw(ctx){
-        if () {
+        if (this.shootPressed) {
             
         }
         this.move();
