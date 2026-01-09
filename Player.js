@@ -52,7 +52,7 @@ export default class Player {
             this.leftPressed = true;
         }
         if (event.code == "Space") {
-            
+            this.shootPressed = true;
         }
     }
 
