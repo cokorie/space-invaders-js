@@ -15,7 +15,7 @@ const player = new Player(canvas, 3);
 
 function game () {
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
-    enemyController.draw(ctx);
+    //enemyController.draw(ctx);
     player.draw(ctx);
 }
 

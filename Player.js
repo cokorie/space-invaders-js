@@ -1,4 +1,6 @@
 export default class Player {
+    rightPressed;
+
     constructor(canvas, velocity) {
         this.canvas = canvas;
         this.velocity = velocity;
