@@ -23,7 +23,9 @@ export default class Player {
     }
 
     move() {
-        
+        if () {
+            
+        }
     }
 
     keydown = (event) => {
