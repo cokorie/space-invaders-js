@@ -51,6 +51,9 @@ export default class Player {
         if (event.code == "ArrowLeft") {
             this.leftPressed = true;
         }
+        if () {
+            
+        }
     }
 
     keyup = (event) => {
