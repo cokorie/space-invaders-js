@@ -11,7 +11,7 @@ export default class Player {
         this.image.src = "images/player.png";
     }
 
-    draw(){
-        
+    draw(ctx){
+
     }
 }
