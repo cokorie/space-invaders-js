@@ -23,6 +23,7 @@ export default class Player {
     }
 
     collideWithWalls() {
+        // left wall limit
         if (this.x < 0) {
             this.x = 0;
         }
