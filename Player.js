@@ -51,7 +51,7 @@ export default class Player {
         if (event.code == "ArrowLeft") {
             this.leftPressed = true;
         }
-        if () {
+        if (event.code == "Space") {
             
         }
     }
