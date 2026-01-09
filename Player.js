@@ -23,7 +23,9 @@ export default class Player {
     }
 
     collideWithWalls() {
-        
+        if (this.x < 0) {
+            this.x = 0;
+        }
     }
 
     move() {
