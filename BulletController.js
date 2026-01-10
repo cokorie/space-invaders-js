@@ -24,7 +24,8 @@ export default class BulletController {
     }
 
     collideWith(sprite) {
-
+        const bulletThatHitSpriteIndex = this.bullets.findIndex(bullet => bullet.collideWith(sprite));
+        
     }
 
     shoot(x, y, velocity, timeTillNextBulletAllowed = 0) {
