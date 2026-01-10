@@ -5,6 +5,8 @@ export default class BulletController () {
         this.maxBulletsAtATime = maxBulletsAtATime;
         this.bulletColor = bulletColor;
         this.soundEnabled = soundEnabled;
+
+        this.shootSound = new Audio("sounds/shoot.wav");
     }
 
     shoot() {
