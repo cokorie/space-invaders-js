@@ -17,7 +17,7 @@ export default class Bullet {
         ctx.fillRect(this.x, this.y, this.width, this.height);
     }
 
-    collideWith() {
-        
+    collideWith(sprite) {
+
     }
 }
