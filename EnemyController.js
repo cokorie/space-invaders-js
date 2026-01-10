@@ -40,7 +40,7 @@ export default class EnemyController {
     fireBullet() {
         this.fireBulletTimer--;
         if (this.fireBulletTimer <= 0) {
-
+            this.fireBulletTimer = this.fireBulletTimerDefault;
         }
     }
 
