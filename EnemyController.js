@@ -42,8 +42,8 @@ export default class EnemyController {
 
     collisionDetection() {
         this.enemyRows.forEach((enemyRow)) => {
-            this.enemyRow.forEach() => {
-
+            this.enemyRow.forEach((enemy, enemyIndex)) => {
+                
             }
         }
     }
