@@ -15,7 +15,9 @@ export default class BulletController {
     }
 
     draw(ctx) {
-
+        if () {
+            
+        }
     }
 
     shoot(x, y, velocity, timeTillNextBulletAllowed = 0) {
