@@ -11,6 +11,7 @@ export default class Bullet {
 
         draw(ctx) {
             this.y -= this.velocity;
+            ctx.fillStyle = this.bulletColor;
         }
     }
 }
