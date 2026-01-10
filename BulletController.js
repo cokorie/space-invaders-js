@@ -1,6 +1,6 @@
 export default class BulletController () {
 
-    constructor() {
+    constructor(canvas, maxBulletsAtATime, bulletColor, soundEnabled) {
         
     }
 
