@@ -10,7 +10,7 @@ export default class Bullet {
         this.height = 20;
 
         draw(ctx) {
-
+            this.y -= this.velocity;
         }
     }
 }
