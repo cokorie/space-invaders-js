@@ -9,8 +9,8 @@ export default class Bullet {
         this.width = 5;
         this.height = 20;
 
-        draw() {
-            
+        draw(ctx) {
+
         }
     }
 }
