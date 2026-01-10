@@ -22,6 +22,7 @@ export default class BulletController () {
                 this.shootSound.currentTime = 0;
                 this.shootSound.play();
             }
+            this.timeTillNextBulletAllowed = timeTillNextBulletAllowed;
         }
     }
 }
