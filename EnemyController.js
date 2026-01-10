@@ -39,6 +39,9 @@ export default class EnemyController {
 
     fireBullet() {
         this.fireBulletTimer--;
+        if () {
+            
+        }
     }
 
     resetMoveDownTimer() {
