@@ -1,5 +1,5 @@
 export default class Bullet {
-    constructor() {
+    constructor(canvas, x, y, velocity, bulletColor) {
         
     }
 }
