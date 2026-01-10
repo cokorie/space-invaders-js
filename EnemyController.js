@@ -47,6 +47,7 @@ export default class EnemyController {
         this.enemyRows.forEach((enemyRow) => {
             this.enemyRow.forEach((enemy, enemyIndex) => {
                 if (this.playerBulletController.collideWith(enemy)) {
+                    this.enemyDeathSound.currentTime = 0;
                     this.enemyDeathSound.play();
                     enemyRow.splice(enemyIndex, 1);
                 }
