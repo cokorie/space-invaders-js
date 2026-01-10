@@ -4,5 +4,6 @@ export default class Bullet {
         this.x = x;
         this.y = y;
         this.velocity = velocity;
+        this.bulletColor = bulletColor;
     }
 }
