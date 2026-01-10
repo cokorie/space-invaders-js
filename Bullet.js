@@ -18,6 +18,8 @@ export default class Bullet {
     }
 
     collideWith(sprite) {
-
+        if () {
+            
+        }
     }
 }
