@@ -41,7 +41,9 @@ export default class EnemyController {
     }
 
     collisionDetection() {
+        this.enemyRows.forEach() => {
 
+        }
     }
 
     fireBullet() {
