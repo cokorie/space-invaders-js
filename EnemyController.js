@@ -23,6 +23,8 @@ export default class EnemyController {
 
     constructor(canvas, enenmyBulletController) {
         this.canvas = canvas;
+        this.enenmyBulletController = enenmyBulletController;
+        
         this.createEnemies();
     }
 
