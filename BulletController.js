@@ -28,6 +28,7 @@ export default class BulletController {
         
         if (bulletThatHitSpriteIndex >= 0) {
             this.bullets.splice(bulletThatHitSpriteIndex, 1);
+            return true;
         }
     }
 
