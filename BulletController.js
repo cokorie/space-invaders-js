@@ -1,6 +1,7 @@
 import Bullet from "./Bullet";
 
 export default class BulletController () {
+    bullets = [];
 
     constructor(canvas, maxBulletsAtATime, bulletColor, soundEnabled) {
         this.canvas = canvas;
