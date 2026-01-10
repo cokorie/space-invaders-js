@@ -16,4 +16,8 @@ export default class Bullet {
         ctx.fillStyle = this.bulletColor;
         ctx.fillRect(this.x, this.y, this.width, this.height);
     }
+
+    collideWith() {
+        
+    }
 }
