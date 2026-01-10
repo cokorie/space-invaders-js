@@ -19,7 +19,7 @@ export default class BulletController () {
             const bullet = new Bullet(this.canvas, x, y, velocity, this.bulletColor);
             this.bullets.push(bullet);
             if (this.soundEnabled) {
-                
+                this.shootSound.currentTime = 0;
             }
         }
     }
