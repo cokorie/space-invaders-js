@@ -41,6 +41,7 @@ export default class EnemyController {
         this.fireBulletTimer--;
         if (this.fireBulletTimer <= 0) {
             this.fireBulletTimer = this.fireBulletTimerDefault;
+            const allEnemies = this.enemyRows.flat();
         }
     }
 
