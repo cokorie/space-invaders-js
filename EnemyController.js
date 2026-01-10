@@ -20,7 +20,7 @@ export default class EnemyController {
     defaultYVelocity = 1;
     moveDownTimerDefault = 30;
     moveDownTimer = this.moveDownTimerDefault;
-    fireBulletTimerDefault;
+    fireBulletTimerDefault = 100;
 
     constructor(canvas, enenmyBulletController) {
         this.canvas = canvas;
