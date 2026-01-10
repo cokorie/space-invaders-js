@@ -20,6 +20,7 @@ export default class BulletController () {
             this.bullets.push(bullet);
             if (this.soundEnabled) {
                 this.shootSound.currentTime = 0;
+                this.shootSound.play();
             }
         }
     }
