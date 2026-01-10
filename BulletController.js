@@ -23,6 +23,10 @@ export default class BulletController {
         }
     }
 
+    collideWith() {
+        
+    }
+
     shoot(x, y, velocity, timeTillNextBulletAllowed = 0) {
         if (this.timeTillNextBulletAllowed <= 0 && this.bullets.length < this.maxBulletsAtATime) {
             const bullet = new Bullet(this.canvas, x, y, velocity, this.bulletColor);

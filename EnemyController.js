@@ -41,14 +41,15 @@ export default class EnemyController {
     }
 
     collisionDetection() {
-        this.enemyRows.forEach((enemyRow)) => {
-            this.enemyRow.forEach((enemy, enemyIndex)) => {
+        this.enemyRows.forEach((enemyRow) => {
+            this.enemyRow.forEach((enemy, enemyIndex) => {
                 if (this.playerBulletController.collideWith(enemy)) {
                     // to play a sound when detected
                     enemyRow.splice(enemyIndex, 1);
                 }
-            }
-        }
+            });
+        });
+        this.enemyRows = this.enemyRows.filter((enemyRow) => enemyRow.length > 0);
     }
 
     fireBullet() {
