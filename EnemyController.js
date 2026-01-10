@@ -28,6 +28,8 @@ export default class EnemyController {
         this.enenmyBulletController = enenmyBulletController;
         this.playerBulletController = playerBulletController;
 
+        this.enemyDeathSound = new Audio("sounds/enemy-death.wav");
+
         this.createEnemies();
     }
 
