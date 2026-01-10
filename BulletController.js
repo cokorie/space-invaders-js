@@ -23,8 +23,8 @@ export default class BulletController {
         }
     }
 
-    collideWith() {
-        
+    collideWith(sprite) {
+
     }
 
     shoot(x, y, velocity, timeTillNextBulletAllowed = 0) {
