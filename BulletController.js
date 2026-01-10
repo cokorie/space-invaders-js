@@ -15,7 +15,7 @@ export default class BulletController {
     }
 
     draw(ctx) {
-        if () {
+        if (this.timeTillNextBulletAllowed > 0) {
             
         }
     }
