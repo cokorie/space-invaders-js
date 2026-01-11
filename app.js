@@ -38,6 +38,7 @@ function displayGameOver () {
         let textOffset = didWin ? 3.5 : 5;
 
         ctx.fillStyle = "white";
+        ctx.font = "Gemunu Libre";
     }
 }
 
