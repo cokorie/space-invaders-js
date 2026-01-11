@@ -140,7 +140,7 @@ export default class EnemyController {
         });
     }
 
-    collideWith() {
-        
+    collideWith(sprite) {
+
     }
 }
