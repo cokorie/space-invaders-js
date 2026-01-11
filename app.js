@@ -33,7 +33,7 @@ function checkGameOver () {
         return;
     }
 
-    if () {
+    if (enemyBulletController.collideWith(player)) {
         
     }
 }
