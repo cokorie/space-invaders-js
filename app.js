@@ -17,7 +17,7 @@ const enemyController = new EnemyController(canvas, enemyBulletController);
 
 const player = new Player(canvas, 3, playerBulletController);
 
-let isGameOver;
+let isGameOver = false;
 
 function game () {
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
