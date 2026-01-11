@@ -18,7 +18,7 @@ const enemyController = new EnemyController(canvas, enemyBulletController);
 const player = new Player(canvas, 3, playerBulletController);
 
 let isGameOver = false;
-let didWin
+let didWin = false;
 
 function game () {
     checkGameOver();
