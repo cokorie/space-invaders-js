@@ -27,4 +27,8 @@ function game () {
     enemyBulletController.draw(ctx);
 }
 
+function checkGameOver () {
+    
+}
+
 setInterval(game, 1000 / 60);
