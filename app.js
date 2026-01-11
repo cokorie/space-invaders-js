@@ -35,7 +35,7 @@ function game () {
 function displayGameOver () {
     if (isGameOver) {
         let text = didWin ? "YOU WON" : "GAME OVER";
-        let textOffset;
+        let textOffset = didWin ? 3.5 : 5;
     }
 }
 
