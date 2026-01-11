@@ -45,7 +45,7 @@ export default class EnemyController {
 
     collisionDetection() {
         this.enemyRows.forEach((enemyRow) => {
-            this.enemyRow.forEach((enemy, enemyIndex) => {
+            enemyRow.forEach((enemy, enemyIndex) => {
                 if (this.playerBulletController.collideWith(enemy)) {
                     this.enemyDeathSound.currentTime = 0;
                     this.enemyDeathSound.play();
@@ -74,7 +74,10 @@ export default class EnemyController {
     }
 
     decrementMoveDownTimer() {
-        if (this.currentDirection === MovingDirection.downLeft || this.currentDirection === MovingDirection.downRight) {
+        if (
+            this.currentDirection === MovingDirection.downLeft || 
+            this.currentDirection === MovingDirection.downRight
+        ) {
             this.moveDownTimer--;
         }
     }
@@ -141,6 +144,6 @@ export default class EnemyController {
     }
 
     collideWith(sprite) {
-        return this.enemyRows.flat().some(enemy => enemy.collideWith(sprite));
+        return this.enemyRows.flat().some((enemy) => enemy.collideWith(sprite));
     }
 }

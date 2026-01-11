@@ -13,14 +13,18 @@ background.src = "images/space.png";
 
 const playerBulletController = new BulletController(canvas, 10, "red", true);
 const enemyBulletController = new BulletController(canvas, 4, "white", false);
-const enemyController = new EnemyController(canvas, enemyBulletController);
+const enemyController = new EnemyController(
+    canvas,
+    enemyBulletController,
+    playerBulletController
+);
 
 const player = new Player(canvas, 3, playerBulletController);
 
 let isGameOver = false;
 let didWin = false;
 
-function game () {
+function game() {
     checkGameOver();
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
     displayGameOver();
@@ -32,18 +36,18 @@ function game () {
     }
 }
 
-function displayGameOver () {
+function displayGameOver() {
     if (isGameOver) {
         let text = didWin ? "YOU WON" : "GAME OVER";
         let textOffset = didWin ? 3.5 : 5;
 
         ctx.fillStyle = "white";
-        ctx.font = "Gemunu Libre";
+        ctx.font = "70px Gemunu Libre";
         ctx.fillText(text, canvas.width / textOffset, canvas.height / 2);
     }
 }
 
-function checkGameOver () {
+function checkGameOver() {
     if (isGameOver) {
         return;
     }
