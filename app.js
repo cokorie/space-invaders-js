@@ -39,7 +39,7 @@ function displayGameOver () {
 
         ctx.fillStyle = "white";
         ctx.font = "Gemunu Libre";
-        ctx.fillText();
+        ctx.fillText(text, canvas.width / textOffset, canvas.height / 2);
     }
 }
 
