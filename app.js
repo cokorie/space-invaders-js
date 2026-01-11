@@ -56,7 +56,7 @@ function checkGameOver () {
         isGameOver = true;
     }
 
-    if () {
+    if (enemyController.enemyRows.length === 0) {
         
     }
 }
