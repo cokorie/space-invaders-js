@@ -22,10 +22,12 @@ let isGameOver = false;
 function game () {
     checkGameOver();
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
-    enemyController.draw(ctx);
-    player.draw(ctx);
-    playerBulletController.draw(ctx);
-    enemyBulletController.draw(ctx);
+    if (!isGameOver) {
+        enemyController.draw(ctx);
+        player.draw(ctx);
+        playerBulletController.draw(ctx);
+        enemyBulletController.draw(ctx);
+    }
 }
 
 function checkGameOver () {
