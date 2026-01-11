@@ -20,6 +20,7 @@ const player = new Player(canvas, 3, playerBulletController);
 let isGameOver = false;
 
 function game () {
+    checkGameOver();
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
     enemyController.draw(ctx);
     player.draw(ctx);
@@ -28,7 +29,7 @@ function game () {
 }
 
 function checkGameOver () {
-    
+
 }
 
 setInterval(game, 1000 / 60);
