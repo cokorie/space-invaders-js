@@ -19,7 +19,7 @@ export default class Enemy {
         this.y += yVelocity;
     }
 
-    collideWith() {
+    collideWith(sprite) {
         
     }
 }
