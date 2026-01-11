@@ -29,7 +29,7 @@ function game () {
 }
 
 function checkGameOver () {
-    if () {
+    if (isGameOver) {
         
     }
 }
