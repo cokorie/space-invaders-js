@@ -55,6 +55,10 @@ function checkGameOver () {
     if (enemyController.collideWith(player)) {
         isGameOver = true;
     }
+
+    if () {
+        
+    }
 }
 
 setInterval(game, 1000 / 60);
