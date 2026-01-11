@@ -52,7 +52,7 @@ function checkGameOver () {
         isGameOver = true;
     }
 
-    if () {
+    if (enemyController.collideWith(player)) {
         
     }
 }
