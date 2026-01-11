@@ -29,7 +29,9 @@ function game () {
 }
 
 function checkGameOver () {
-
+    if () {
+        
+    }
 }
 
 setInterval(game, 1000 / 60);
