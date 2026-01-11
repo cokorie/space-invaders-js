@@ -33,8 +33,8 @@ function game () {
 }
 
 function displayGameOver () {
-    if () {
-        
+    if (isGameOver) {
+
     }
 }
 
