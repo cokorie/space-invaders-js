@@ -34,7 +34,7 @@ function game () {
 
 function displayGameOver () {
     if (isGameOver) {
-        let text;
+        let text = didWin ? "YOU WON" : "GAME OVER";
     }
 }
 
