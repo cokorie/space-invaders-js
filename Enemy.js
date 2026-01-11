@@ -18,4 +18,8 @@ export default class Enemy {
         this.x += xVelocity;
         this.y += yVelocity;
     }
+
+    collideWith() {
+        
+    }
 }
