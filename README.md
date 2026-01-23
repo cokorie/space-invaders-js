@@ -48,7 +48,7 @@ Click on the below hyperlink to play Space Invaders:
 ![Space Invaders Gameplay](/images/space-invaders-gameplay.png)
 ###### Gameplay
 
-![Space Invaders Game Over Screen](/images/space-invaders-over.png)
+![Space Invaders Game Over Screen](/images/space-invaders-game-over.png)
 ###### Game Over
 
 ### __Further Enhancements (Icebox)__
