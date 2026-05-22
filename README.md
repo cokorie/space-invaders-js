@@ -42,7 +42,7 @@ Click on the below hyperlink to play Space Invaders:
   * Player and enemy sounds for shooting and deletion
 
 ### __Screenshots__
-![Space Invaders Starting Screen](/images/space-invaders-start.png)
+![SPACE INVADERS Starting Screen](/images/space-invaders-start.png)
 ###### Game Start Screen
 
 ![Space Invaders Gameplay](/images/space-invaders-gameplay.png)
